@@ -1,0 +1,63 @@
+h1 {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: red;
+    margin: 20px 0;
+}
+
+p {
+    margin: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px black;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px black;
+}
+
+td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+td:first-child {
+    font-weight: bold;
+    background-color: red;
+    color: white;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: red;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+

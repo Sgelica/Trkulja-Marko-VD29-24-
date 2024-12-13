@@ -1,0 +1,78 @@
+h1 {
+    color: #d62828;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin: 20px;
+    color: #444;
+}
+
+input[type="number"], input[type="date"], input[type="email"] {
+    display: block;
+    width: 90%;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+label {
+    display: inline-block;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+input[type="submit"], input[type="reset"] {
+    display: inline-block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #d62828;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #a31e1e;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #d62828;
+    margin: 20px 0;
+}
+
+p + br {
+    margin-top: 10px;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #d62828;
+}
+
+a:hover {
+    color: #555;
+    text-decoration: underline;
+}
